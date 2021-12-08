@@ -7,6 +7,7 @@ import java.util.Properties;
 
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.WebElement;
 
 public class Demo_Configuration_Reader {
 	
@@ -14,7 +15,7 @@ public class Demo_Configuration_Reader {
 	
 	public  Demo_Configuration_Reader() throws Throwable {
 		
-		File file=new File("C:\\Users\\Jaicj\\eclipse-workspace\\Maven_First\\src\\main\\java\\com\\property\\Demo_proertyFile.properties");
+		File file=new File("C:\\Users\\Jaicj\\eclipse-workspace\\Maven_First\\src\\main\\java\\Demo_property\\Demo_property.properties");
 		
 		FileInputStream fis=new FileInputStream(file);
 		
@@ -26,10 +27,29 @@ public class Demo_Configuration_Reader {
 	
 	public String getInstanceURL() {
 		
-		String url=prop.getProperty("url");
+		String url=prop.getProperty("Demo_url");
 		
 		return url;
 
 	}
+	
+	public String getInstanceUsername()
+	{
+		String username=prop.getProperty("user_email");
+		
+		return username;
+				
+	}
+	
+	public String getInstancePassword()
+	{
+		String password=prop.getProperty("user_password");
+		
+		return password;
+	}
+	
+	
+		
+	
 
 }

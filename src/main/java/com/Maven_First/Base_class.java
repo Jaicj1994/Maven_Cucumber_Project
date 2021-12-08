@@ -26,7 +26,7 @@ public class Base_class {
 
 		if (type.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
-					System.getProperty("user.dir") + "//Driver//chromedriver.exe");
+					System.getProperty("user.dir") + "//Driver\\chromedriver.exe");
 
 			driver = new ChromeDriver();
 
@@ -65,11 +65,12 @@ public class Base_class {
 
 	public static void keyboard_actions() {
 
-		action = new Actions(driver);
+		action=new Actions(driver);
 		action.sendKeys(Keys.TAB).build().perform();
 		action.sendKeys(Keys.DOWN).build().perform();
 
 	}
+	
 
 	public static void keyboard_action_room() {
 
@@ -82,8 +83,8 @@ public class Base_class {
 	}
 
 	public static void start_date() {
-		action.sendKeys(Keys.TAB).sendKeys("30/10/2021").perform();
-		action.sendKeys(Keys.TAB).sendKeys("01/11/2021").perform();
+		action.sendKeys(Keys.TAB).sendKeys("22/11/2021").perform();
+		action.sendKeys(Keys.TAB).sendKeys("23/11/2021").perform();
 	}
 
 	public static void adults(WebElement adult_count, String value, String Type) {

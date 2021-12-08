@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test A(failed)">
+    <parameter name="car_name" value="BMW"/>
+    <parameter name="car_color" value="Black"/>
+    <classes>
+      <class name="com.TestNG_Features.Parameters_B">
+        <methods>
+          <include name="runthisclass_First"/>
+          <include name="user_password"/>
+        </methods>
+      </class> <!-- com.TestNG_Features.Parameters_B -->
+    </classes>
+  </test> <!-- Test A(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36" started-at="2021-11-28T19:19:50 IST" finished-at="2021-11-28T19:19:50 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="36" started-at="2021-11-28T19:19:50 IST" finished-at="2021-11-28T19:19:50 IST">
+      <class name="com.TestNG_Features.Parameters_A">
+        <test-method status="PASS" signature="user_password(java.lang.String)[pri:2, instance:com.TestNG_Features.Parameters_A@458c1321]" name="user_password" duration-ms="5" started-at="2021-11-28T19:19:50 IST" finished-at="2021-11-28T19:19:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jai@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_password -->
+        <test-method status="PASS" signature="user_Credential(java.lang.String)[pri:3, instance:com.TestNG_Features.Parameters_A@458c1321]" name="user_Credential" duration-ms="1" started-at="2021-11-28T19:19:50 IST" finished-at="2021-11-28T19:19:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jaikumarcj]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_Credential -->
+      </class> <!-- com.TestNG_Features.Parameters_A -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

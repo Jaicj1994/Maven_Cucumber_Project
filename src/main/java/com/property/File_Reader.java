@@ -25,3 +25,4 @@ public class File_Reader {
 	}
 
 }
+//String url = File_Reader.getInstance_File_Reader().getInstance_Config_Reader().getURL();
